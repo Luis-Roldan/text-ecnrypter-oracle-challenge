@@ -5,7 +5,7 @@ body {
 .logo-img {
     margin: 20px;
     width: 40px;
-    height: 40px;
+    height: 30px;
 }
 
 .middle-part {
@@ -14,10 +14,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .text-to-encrypt {
-    
+    height: 40vh;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
@@ -28,13 +31,26 @@ body {
 }
 
 .result {
-    background-color: aqua;
-    height: 100vh;
+    background-color: rgb(37, 129, 129);
+    height: 80vh;
     width: 35vw;
     padding: 10px;
     margin-top: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.result img {
+    width: 80%;
+    align-self: center;
 }
 
 .container {
     display: flex;
+    justify-content: space-between;
 }
