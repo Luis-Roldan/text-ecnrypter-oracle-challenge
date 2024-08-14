@@ -1,0 +1,40 @@
+body {
+    background-color: #D8DFE8;
+}
+
+.logo-img {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.middle-part {
+    height: 100vh;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.text-to-encrypt {
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.text-to-encrypt label {
+    padding-bottom: 20px;
+}
+
+.result {
+    background-color: aqua;
+    height: 100vh;
+    width: 35vw;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+}
